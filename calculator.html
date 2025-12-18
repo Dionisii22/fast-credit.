@@ -1,0 +1,28 @@
+<!-- Сайт розроблено студентом Мельником Діонісієм, група ФЕМП 3-13 -->
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<title>Калькулятор</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Калькулятор бізнес-кредиту</h1></header>
+<nav>
+<a href="index.html">Головна</a>
+<a href="calculator.html">Калькулятор</a>
+<a href="schedule.html">Графік</a>
+<a href="about.html">Про проєкт</a>
+<a href="contacts.html">Контакти</a>
+</nav>
+<main>
+<label>Сума кредиту</label><input id="amount" type="number">
+<label>Термін (міс.)</label><input id="months" type="number">
+<label>Ставка (%)</label><input id="rate" type="number">
+<button onclick="calc()">Розрахувати</button>
+<div id="res"></div>
+</main>
+<footer>Мельник Діонісій | ФЕМП 3-13</footer>
+<script src="script.js"></script>
+</body>
+</html>
